@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e6c33a9-3892-4d62-813a-a2a48c9305a4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/madlib_cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/madlib_cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_madlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_madlib.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +17,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2854yRcvM155AYo1AhGUjawpp9E" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
