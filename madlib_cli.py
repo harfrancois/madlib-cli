@@ -1,10 +1,17 @@
-def read_template():
-    return
+import re
 
 
-def parse_template():
-    return
+def read_template(file):
+    with open(file) as f:
+        return f.read()
 
 
-def merge():
-    return
+def parse_template(template):
+    pattern = r"{(.*?)}"
+    parts = tuple(re.findall(pattern, template))
+    stripped = re.sub(pattern, "{}", template)
+    return stripped, parts
+
+
+def merge(expected_stripped, parts):
+    return expected_stripped.format(*parts)
